@@ -52,6 +52,14 @@ export default function EditName() {
                     <label htmlFor="userName">User Name</label>
                     <input type="text" id="userName" value={userName} onChange={(e) => setUserName(e.target.value)}/>
                 </div>
+                <div className="userName--input">
+                    <label htmlFor="firstName">First Name</label>
+                    <input type="text" id="firstName" value={userFirstName} onChange={(e) => e.preventDefault()} disabled/>
+                </div>
+                <div className="userName--input">
+                    <label htmlFor="lastName">Last Name</label>
+                    <input type="text" id="LastName" value={userLastName} onChange={(e) => e.preventDefault()} disabled/>
+                </div>
                 <div className='userNameButton_wrapper'>
                     <button 
                         className="userName--button"

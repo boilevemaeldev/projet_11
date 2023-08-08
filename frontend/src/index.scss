@@ -29,7 +29,8 @@ body {
   
 .main {
     flex: 1;
-    height: 80vh;
+    min-height: 80vh;
+    padding-bottom: 30px;
 }
   
 .bg-dark {
